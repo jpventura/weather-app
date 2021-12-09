@@ -118,9 +118,6 @@ class Common(Configuration):
         },
     ]
 
-    # Cornershop API User
-    AUTH_USER_MODEL = 'cornershop.apps.users.User'
-
     # Logging
     LOGGING = {
         'version': 1,
