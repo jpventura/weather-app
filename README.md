@@ -1,10 +1,11 @@
-<h1 align="center">GitHub Project Template</h1>
+<h1 align="center">Weather App</h1>
 
 <p align="center">
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github-logo" width="120px" height="120px"/>
+  <img src="docs/icon.jpg" alt="weather-logo"/>
   <br>
-  <i>GitHub template to spawn applications git repositories
-    <br> using programming languages.</i>
+  <i>Combining OpenAPI 3.x and GraphQL
+    <br> into a single</i>
+    Django Application
   <br>
 </p>
 
@@ -12,7 +13,7 @@
   <a href="https://www.jpventura.com"><strong>www.jpventura.com</strong></a>
   <br>
 </p>
-
+ 
 <p align="center">
   <a href="CONTRIBUTING.md">Contributing Guidelines</a>
   ·
