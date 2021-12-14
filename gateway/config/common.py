@@ -8,7 +8,7 @@ from configurations import Configuration
 
 class Common(Configuration):
 
-    BASE_DIR = path.dirname(path.abspath(path.pardir))
+    BASE_DIR = path.dirname(path.dirname(path.abspath(__file__)))
 
     INSTALLED_APPS = (
         'django.contrib.admin',
@@ -52,7 +52,7 @@ class Common(Configuration):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': path.join(BASE_DIR, 'cornershop.db'),
+            'NAME': path.join(BASE_DIR, 'cornershop.sqlite3'),
         }
     }
 
